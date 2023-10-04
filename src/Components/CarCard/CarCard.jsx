@@ -6,7 +6,6 @@ import { MdLocationCity } from "react-icons/md";
 import { BsHeart } from "react-icons/bs";
 
 const CarCard = ({ car }) => {
-  // console.log(car)
     return (
       <div className="bg-[#f0f8ff] p-2 shadow-md rounded-xl m-2">
         <img
@@ -17,7 +16,6 @@ const CarCard = ({ car }) => {
         <div className="px-3 pt-5">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-semibold">{car.name}</h2>
-            {/* JSX */}
             <p className="rounded-dashed-border">{car.year}</p>
           </div>
           <div className="grid grid-cols-2 justify-between items-center mb-4">
