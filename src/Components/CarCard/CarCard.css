@@ -1,0 +1,24 @@
+.rounded-dashed-border {
+    border: 2px dashed #7CB9E8; /* Adjust the width and color as needed */
+    border-radius: 10px; /* Adjust the radius to control the roundness */
+    padding: 5px 10px; /* Add padding to create space between text and border */
+    display: inline-block; /* Ensure the border only wraps around the content */
+  }
+  .font-icon{
+    color:#1E90FF;
+  }
+  .heart-icon {
+    width: 40px; /* Set the width and height to create a circle */
+    height: 40px;
+    color:#1E90FF;
+    background-color: #cee4f6;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 50%;
+}
+.read-more{
+    background-color:#1E90FF;
+    border: none;
+    color:white;
+}
